@@ -401,6 +401,7 @@ df_electric_countries = df_electric_countries.iloc[11:55]
 df_electric_countries.index = df_electric_countries.index.astype(int)
 df_electric_countries = df_electric_countries[df_electric_countries.index > 1990]
 
+# plotting the data
 plt.plot(df_electric_countries.index, df_electric_countries["Bangladesh"])
 plt.plot(df_electric_countries.index, df_electric_countries["China"])
 plt.plot(df_electric_countries.index, df_electric_countries["Germany"])
